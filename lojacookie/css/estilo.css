@@ -1,0 +1,80 @@
+
+ *{
+
+    /* indica o espaço acima do elemento.*/
+   margin-top: 5px;
+   
+   /*define a margin area na parte inferior de um elemento.*/
+   margin-bottom:5px;
+
+}
+
+ body{
+
+    /* Padding is used to create space around an element's content, inside of any defined borders.*/
+   padding: 5px;
+   
+}
+
+h1 {
+   /*A propriedade font-family é usada para definir uma lista de fontes e sua prioridade para apresentação de um elemento em uma página.*/
+  font-family:arial, verdana, sans-serif;
+  
+  /*Define as variantes entre normal ou small-caps.*/
+  font-variant: petite-caps;
+  
+  /*define a cor do texto*/
+  color: #4682B4; 
+  
+  /*centraliza o texto*/
+  text-align: center;
+}
+
+
+h5 {
+  /*centraliza o texto*/
+  text-align: center;
+  
+  /*define a cor do texto*/
+  color: #000000;
+} 
+
+
+h4 {
+  /*centraliza o texto*/
+  text-align: center;
+  
+  /*define a cor do texto*/
+  color: #4682B4;
+  
+  
+}
+
+
+/* o .img-fluid foi usado para fazer a estilização das imagens na galeria do site*/
+.img-fluid{
+ width: 250px;       /* o width define a LARGURA*/
+ height: 250px;       /* o height define a ALTURA*/
+ overflow: hidden;     
+ display: inline-block;   /* o display: inline-block foi usado para DEIXAR AS IMAGENS UMA DO LADO DA OUTRA*/
+}
+
+.img-fluid img{
+ width: 100%;
+ height: 100%;
+ -webkit-transition: -webkit-transform .5s ease;  
+ transition: transform .5s ease;
+}
+
+.img-fluid:hover img{
+ -webkit-transform: scale(1.5);
+ transform: scale(1.5);
+}
+
+.form1{
+
+    color:blue;
+}
+
+
+
